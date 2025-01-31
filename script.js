@@ -6,7 +6,7 @@
 		this.age = age;
 	}
 	greet(){
-		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
+		console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
 	}
 		
 	}
@@ -27,7 +27,7 @@
 	}
 	const employee = new Employee('Bob', 30, 'Manager')
 	
-    employee.jobGreet();
+    // employee.jobGreet();
 
 
 
